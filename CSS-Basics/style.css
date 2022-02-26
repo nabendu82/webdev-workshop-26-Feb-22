@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+body{
+    background-color: #FCE8E8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: lightblue;
+    padding: 2%;
+}
+
+h1{
+    color:brown;
+}
+
+h3{
+    color: rgb(10, 18, 157);
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(123, 91%, 32%);
+    font-family: 'Shizuru', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+#second-p{
+    color: hsl(59, 88%, 16%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 16px;
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    background-color: darkmagenta;
+}
+
+.button:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('./images/unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
